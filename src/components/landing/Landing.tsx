@@ -1,7 +1,10 @@
 import "./Landing.css"
+import Navbar from "../navbar/Navbar";
 
 function Landing(){
-    return <h1>Landing</h1>;
+    return <div>
+        <Navbar/>
+    </div>;
 }
 
 export default Landing;

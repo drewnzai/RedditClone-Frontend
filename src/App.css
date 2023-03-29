@@ -4,13 +4,6 @@
   --light-grey: rgb(245, 245, 245);
 }
 
-body {
-  background-color: #dae0e6;
-}
-
-.spacer {
-  flex: 1;
-}
 
 .hoverable:hover {
   cursor: pointer;
