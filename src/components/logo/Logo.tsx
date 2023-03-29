@@ -1,7 +1,10 @@
 import "./Logo.css";
 
 function Logo(){
-    return <h1>Actions</h1>;
+    return <div className="logo">
+        <img src="./assets/images/reddit.jpg" alt=""/>
+        <span>reddit</span>
+    </div>;
 }
 
 export default Logo;

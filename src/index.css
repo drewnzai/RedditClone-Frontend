@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "vag";
+  src: local("vag"),
+   url("./fonts/VAG/VAGRoundedRegular.ttf") format("truetype");
+  }
+  
