@@ -1,5 +1,5 @@
 import "./Searchbar.css";
-import SearchIcon from '@material-ui/icons/Search';
+import SearchIcon from '@mui/icons-material/Search';
 
 function Searchbar(){
     return <div className="searchbar">

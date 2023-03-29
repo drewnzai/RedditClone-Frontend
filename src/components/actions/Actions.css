@@ -1,0 +1,4 @@
+.actions{
+    display: flex;
+    border: 1px var(--primary-color);
+}
