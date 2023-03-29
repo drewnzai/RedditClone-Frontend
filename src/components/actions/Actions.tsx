@@ -1,14 +1,16 @@
 import "./Actions.css";
-import QrCodeScannerSharpIcon from '@mui/icons-material/QrCodeScannerSharp';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import Button from "../button/Button";
 
 function Actions(){
     return <div className="actions">
-        <div>
-        <QrCodeScannerSharpIcon/>
-            Get App
+        <Button primary label="Get App"/>
+        <Button label="Log In"/>
+        <div className="profile">
+            <PersonOutlineOutlinedIcon/>
+            <ArrowDropDownIcon/>
             </div>
-        <div>Log In</div>
-        <div>Profile</div>
     </div>;
 }
 
