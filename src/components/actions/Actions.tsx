@@ -1,7 +1,7 @@
 import "./Actions.css";
 
 function Actions(){
-    return <h1>Actions</h1>;
+    return <div>Actions</div>;
 }
 
 export default Actions;

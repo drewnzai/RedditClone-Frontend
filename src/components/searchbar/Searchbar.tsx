@@ -1,7 +1,16 @@
 import "./Searchbar.css";
+import SearchIcon from '@material-ui/icons/Search';
 
 function Searchbar(){
-    return <h1>Searchbar</h1>;
+    return <div className="searchbar">
+
+        <label htmlFor="searchbar">
+        <SearchIcon/>
+
+        </label>
+        <input type="search" id="searchbar" placeholder="Search Redditclone" />
+
+    </div>;
 }
 
 export default Searchbar;
