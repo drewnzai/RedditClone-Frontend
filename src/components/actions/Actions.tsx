@@ -4,14 +4,31 @@ import "./Actions.css";
 import React, {useState, useEffect, useRef} from 'react';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import Button from "../button/Button";
+import QrCodeScannerSharpIcon from '@mui/icons-material/QrCodeScannerSharp';
+import LoginForm from "../auth/LoginForm";
 
 function Actions(){
 
     const [open, setOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
+    const handleLoginClick = () => {
+     
+      if(open){
+      setOpen(!open);
+
+    }
+      setIsOpen(true);
+    };
+  
+    const handleCloseModal = () => {
+      setIsOpen(false);
+    }
 
   let menuRef = useRef<HTMLInputElement>(null);
+
+  
+
 
     useEffect(() => {
         let handler = (e:any)=>{
@@ -32,30 +49,36 @@ function Actions(){
     
     
     return <div className="actions">
-        <Button primary label="Get App"/>
-        <Button label="Log In"/>
+        <div className="button primary-button">
+               <QrCodeScannerSharpIcon/>         
+               &nbsp;
+            Get App
+            
+            </div>
+        <div className="button secondary-button" onClick={handleLoginClick}>
+          Log In
+        </div>
         
         <div className="profile" onClick={()=>{setOpen(!open)}}>
             <PersonOutlineOutlinedIcon/>
             <ArrowDropDownIcon/>
         </div>
 
+        <LoginForm isOpen={isOpen} onClose={handleCloseModal} />
+        
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`} ref={menuRef}>
-          <ul>
-            <DropdownItem  text = {"Log In/Sign Up"}/>
-          </ul>
+          
+        <ul>
+            <li className = 'dropdownItem' onClick={handleLoginClick}>
+              <a> Log In/ Sign Up </a>
+            </li>
+        </ul>
+
         </div>
 
 
       </div>;
 }
 
-function DropdownItem(props:any){
-  return(
-    <li className = 'dropdownItem'>
-      <a> {props.text} </a>
-    </li>
-  );
-}
 
 export default Actions;
