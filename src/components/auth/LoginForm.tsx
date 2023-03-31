@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { useState } from "react";
 import "./LoginForm.css"; // You'll need to create the LoginModal.css file
 
