@@ -4,6 +4,9 @@
   --light-grey: rgb(245, 245, 245);
 }
 
+body{
+  background-color: #dae0e5;
+}
 
 .hoverable:hover {
   cursor: pointer;

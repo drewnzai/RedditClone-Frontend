@@ -5,7 +5,7 @@ import React, {useState, useEffect, useRef} from 'react';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import QrCodeScannerSharpIcon from '@mui/icons-material/QrCodeScannerSharp';
-import LoginForm from "../auth/LoginForm";
+import LoginForm from "../../auth/LoginForm";
 
 function Actions(){
 
