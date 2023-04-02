@@ -3,7 +3,7 @@
 import "./Actions.css";
 import React, {useState, useEffect, useRef} from 'react';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import QrCodeScannerSharpIcon from '@mui/icons-material/QrCodeScannerSharp';
 import LoginForm from "../../../auth/LoginForm";
 
@@ -60,8 +60,8 @@ function Actions(){
         </div>
         
         <div className="profile" onClick={()=>{setOpen(!open)}}>
-            <PersonOutlineOutlinedIcon/>
-            <ArrowDropDownIcon/>
+            <PersonOutlineOutlinedIcon sx={{color: "rgb(200,200,200)"}}/>
+            <ExpandMoreIcon sx={{color: "rgb(200,200,200)"}}/>
         </div>
 
         <LoginForm isOpen={isOpen} onClose={handleCloseModal} />
