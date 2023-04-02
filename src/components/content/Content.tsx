@@ -4,9 +4,7 @@ function Content(){
     return (
     <div className='overall'>
     <div className='sidepane'>
-        <span>Sidepane</span>
-        
-        
+        <div className='sd-content'>Test</div>
         </div>
         
     <div className='content'>Trending today</div>
