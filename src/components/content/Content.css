@@ -1,19 +1,11 @@
-.overall{
-    display: flex;
-}
-
-.sidepane{
-    width: 260px;
-    height: 605px;
-    background-color: white;
-    border-top: 1px solid lightgrey;
-    display: flex;
+.content{
+    width: 980px;
     
 }
 
-.sd-content{
-    margin-top: 19px;
-    margin-left: 25px;
-    width: 100%;
-    border: 2px solid black;
+.content .bars-wrapper{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 10px;
 }
+

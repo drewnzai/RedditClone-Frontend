@@ -3,7 +3,7 @@ import trendingitems from '../../../temp-data/trending-items.json';
 
 function Trending(){
     return (
-        <div className='content'>
+        <div className='trending'>
         <span className='title'>Trending today</span>
     
         <div className='items'>
