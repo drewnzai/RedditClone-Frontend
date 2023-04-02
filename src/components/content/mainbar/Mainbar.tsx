@@ -1,7 +1,7 @@
 import './Mainbar.css';
 
 function Mainbar(){
-    return <div>Mainbar</div>;
+    return <div className='mainbar'>Mainbar</div>;
 }
 
 export default Mainbar;
