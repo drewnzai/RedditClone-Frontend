@@ -1,6 +1,6 @@
 import { Subreddit } from "./Subreddit";
 
-export interface TredningItem{
+export interface TrendingItem{
     image_src: string;
     title: string;
     description: string;

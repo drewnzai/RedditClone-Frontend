@@ -1,4 +1,5 @@
 import './Content.css';
+import Trending from './trending/Trending';
 
 function Content(){
     return (
@@ -7,7 +8,7 @@ function Content(){
         <div className='sd-content'>Test</div>
         </div>
         
-    <div className='content'>Trending today</div>
+    <Trending/>
     </div>
     );
 }
