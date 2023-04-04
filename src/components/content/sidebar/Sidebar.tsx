@@ -1,7 +1,10 @@
 import './Sidebar.css';
+import Community from './community/Community';
 
 function Sidebar(){
-    return <div>Sidebar</div>;
+    return <div>
+        <Community />
+    </div>;
 }
 
 export default Sidebar;
