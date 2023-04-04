@@ -2,7 +2,6 @@
 
 import "./Actions.css";
 import React, {useState, useEffect, useRef} from 'react';
-import ReactDOM from 'react-dom';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import QrCodeScannerSharpIcon from '@mui/icons-material/QrCodeScannerSharp';
