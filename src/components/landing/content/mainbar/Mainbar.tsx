@@ -1,4 +1,5 @@
 import './Mainbar.css';
+import Post from "../../../shared/post/Post";
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import NewReleasesIcon from '@mui/icons-material/NewReleases';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -44,7 +45,8 @@ function Mainbar(){
         </div>
 
         </div>
-    
+
+        <Post/>
     
     </div>;
 }
