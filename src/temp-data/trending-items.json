@@ -1,18 +1,28 @@
 [
     {
-      "image_src": "assets/images/art.jpg",
-      "title": "Street art",
-      "description": "Coolest street art pictures ever taken",
+      "image_src": "assets/images/trending/pexels-athena-2582937.jpg",
+      "title": "Technology",
+      "description": "Find out what the wonderful world of value signalling has to offer us this week",
       "subreddit": {
         "image_src": "assets/images/subreddit.jpg",
-        "name": "amazing art"
+        "name": "technology"
       }
     },
   
     {
-      "image_src": "assets/images/tiger.jpg",
-      "title": "Big tiger",
-      "description": "Big tiger in the wild searches for food",
+      "image_src": "assets/images/trending/pexels-matthew-montrone-1324803.jpg",
+      "title": "Nature",
+      "description": "What wonderful abandon one can find in teh vast landscape",
+      "subreddit": {
+        "image_src": "assets/images/subreddit.jpg",
+        "name": "nature"
+      }
+    },
+  
+    {
+      "image_src": "assets/images/trending/pexels-pixabay-65894.jpg",
+      "title": "Animals",
+      "description": "Check out what this huge turkey tastes like with Scotch",
       "subreddit": {
         "image_src": "assets/images/subreddit.jpg",
         "name": "animals"
@@ -20,17 +30,7 @@
     },
   
     {
-      "image_src": "assets/images/programming.jpg",
-      "title": "Web development",
-      "description": "Top 5 tricks to speed up your web development process and get better results",
-      "subreddit": {
-        "image_src": "assets/images/subreddit.jpg",
-        "name": "programming"
-      }
-    },
-  
-    {
-      "image_src": "assets/images/soccer.jpg",
+      "image_src": "assets/images/trending/soccer.jpg",
       "title": "Epic goal",
       "description": "Watch this goal being made!",
       "subreddit": {
