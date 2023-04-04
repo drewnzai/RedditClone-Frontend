@@ -9,7 +9,7 @@ function Trending(){
         <div className='items'>
         {trendingitems.map((item, index) => (
         <div className='trending-items hoverable'style={{backgroundImage: 
-            `linear-gradient(to top, rgba(0, 0, 0, 0.7) 35%, transparent),
+            `linear-gradient(to top, rgba(0, 0, 0, 0.8) 35%, transparent),
             url(${item.image_src})`
     
     }}>
