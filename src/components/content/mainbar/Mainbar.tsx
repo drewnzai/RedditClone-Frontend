@@ -9,7 +9,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 function Mainbar(){
     return <div className='mainbar'>
-        <span className='popular-posts-title'>Popular posts</span>
+        
     
         <div className='filter-container'>
             <div className='filter-element hoverable'> 

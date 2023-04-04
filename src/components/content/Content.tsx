@@ -11,8 +11,13 @@ function Content(){
     <Trending/>
 
     <div className='bars-wrapper'>
+    <span className='popular-posts-title'>Popular posts</span>
+    
+    <div className='inside'>
         <Mainbar/>
         <Sidebar/>
+    </div>
+
     </div>
     </div>
     );

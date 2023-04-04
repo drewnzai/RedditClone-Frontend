@@ -4,9 +4,16 @@
 }
 
 .content .bars-wrapper{
-    display: flex;
     padding-left: 50px;
     margin-left: 7px;
     margin-top: 15px;
 }
 
+.content .bars-wrapper .popular-posts-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content .bars-wrapper .inside{
+    display: flex;
+}
