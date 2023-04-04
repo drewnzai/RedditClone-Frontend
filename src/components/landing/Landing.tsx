@@ -1,6 +1,6 @@
 import "./Landing.css"
 import Navbar from "./navbar/Navbar";
-import Content from "../content/Content";
+import Content from "./content/Content";
 
 function Landing(){
     return ( <div>

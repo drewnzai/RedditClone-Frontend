@@ -1,5 +1,5 @@
 import './Trending.css';
-import trendingitems from '../../../temp-data/trending-items.json';
+import trendingitems from '../../../../temp-data/trending-items.json';
 
 function Trending(){
     return (
