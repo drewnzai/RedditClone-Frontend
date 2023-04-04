@@ -1,0 +1,81 @@
+.mainbar{
+    flex: 0.6;
+    
+}
+
+.mainbar .popular-posts-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mainbar .filter-container{
+    display: flex;
+    background-color: white;
+    padding: 12px;
+    margin-left: 3px;
+    margin-top: 10px;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.mainbar .filter-container .filter-element{
+    display: flex;
+    color: var(--primary-color);
+    background-color: var(--light-grey);
+    padding: 5px;
+    margin: 0px 7px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.mainbar .filter-container .filter-element:first-child{
+    margin-left: 0px;
+}
+
+.mainbar .filter-container .filter-element:first-child:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+
+.mainbar .filter-container .filter-element svg{
+    margin-right: 5px;
+}
+
+.mainbar .filter-container .filter-element-secondary{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0px 5px;
+    color: rgb(150, 150, 150);
+}
+
+.mainbar .filter-container .filter-element-secondary:hover{
+    background-color: var(--light-grey);
+    border-radius: 20px;
+}
+
+.mainbar .filter-container .filter-element-tertiary{
+    padding: 5px;
+    margin: 0px 5px;
+    color: rgb(150, 150, 150);
+}
+
+.mainbar .filter-container .filter-element-tertiary:hover{
+    background-color: var(--light-grey);
+    border-radius: 20px;
+}
+
+.mainbar .filter-container .filter-element-menu{
+    padding: 5px;
+    color: rgb(150, 150, 150);
+    border-radius: 20px;
+}
+
+.mainbar .filter-container .filter-element-menu:hover{
+    background-color: var(--light-grey);
+}
+

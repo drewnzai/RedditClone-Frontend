@@ -1,0 +1,12 @@
+.content{
+    width: 1080px;
+    
+}
+
+.content .bars-wrapper{
+    display: flex;
+    padding-left: 50px;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
