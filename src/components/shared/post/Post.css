@@ -24,7 +24,6 @@
 }
 
 
-
 .post-wrapper .post .post-sidebar{
     grid-area: post-sidebar;
 
@@ -98,13 +97,35 @@
   .post-wrapper .post .post-title .underline:hover {
     text-decoration: underline;
 }
-  
+
 
 
 .post-wrapper .post .post-body{
     grid-area: post-body;
 
-    background-color: yellow;
+   
+}
+
+.post-wrapper .post .post-body > .title {
+    margin-left: 5px;
+  
+    font-size: 18px;
+    font-weight: 600;
+}
+  
+.post-wrapper .post .post-body > img {
+    object-fit: cover;
+    object-position: center;
+  
+    max-height: 500px;
+    width: 100%;
+}
+  
+.post-wrapper .post .post-body > .description {
+    margin-top: 10px;
+    margin-left: 5px;
+  
+    display: block;
 }
 
 

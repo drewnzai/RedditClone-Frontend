@@ -3,6 +3,7 @@ import Posts from '../../../temp-data/posts.json';
 import Button from '../../shared/button/Button';
 
 import { ArrowDownward, ArrowUpward, ModeComment, Share, Bookmark, MoreHoriz } from '@mui/icons-material';
+import Video from './video/Video';
 
 
 function Post(){
@@ -27,10 +28,12 @@ function Post(){
                 <Button label="Join" />
               </div>
               
-              <div className='post-body'>
-
-
-              </div>
+            <div className="post-body">
+            <span className="title">{post.title}</span>
+            {post.video_src && <Video src={post.video_src} duration={post.duration}/>}
+            {post.image_src && <img src={post.image_src} />}
+            {post.description && <span className="description">{post.description}</span>}
+           </div>
               
               
            <div className='post-footer'>
