@@ -25,7 +25,10 @@ function Post(){
                <span className="post-user underline">u/{post.username}</span>
                 
                 <div className="spacer"></div>
+                
                 <Button label="Join" />
+                
+                
               </div>
               
             <div className="post-body">

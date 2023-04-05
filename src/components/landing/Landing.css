@@ -5,16 +5,52 @@
 
 .sidepane{
     width: 260px;
-    height: 605px;
+    height: 100%;
+    margin-top: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     background-color: white;
     border-top: 1px solid lightgrey;
-    display: flex;
+    
     
 }
 
-.sd-content{
+.sidepane .sd-content{
     margin-top: 19px;
     margin-left: 25px;
-    width: 100%;
-    border: 2px solid black;
+    display: grid;
+}
+
+
+.sidepane .sd-content .topic span{
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+
+.sidepane .sd-content .topic .item{
+    width: auto;
+    display:grid;
+    align-items: center;
+}
+
+.sidepane .sd-content .topic .item svg{
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+.sidepane .sd-content .topic .item a{
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.sidepane .sd-content .topic .item a:hover{
+    background-color: var(--light-grey);
+}
+
+.sidepane .sd-content .topic .item span{
+    margin-left: 3px;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 10px;
 }

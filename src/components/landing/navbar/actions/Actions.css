@@ -7,9 +7,11 @@
     margin: 0px 15px;
 }
 
+
 .profile{
     border: 1px solid transparent;
-    padding-right: 20px;
+    padding-right: 10px;
+    margin-right: 30px;
 }
 
 .profile:hover{
@@ -24,6 +26,7 @@
     border: 1px solid rgb(220, 220, 220);
     border-radius: 8px;
     padding: 10px 20px;
+    margin-right: 10px;
     width: 200px;
   }
 

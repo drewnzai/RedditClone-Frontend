@@ -98,7 +98,12 @@
     text-decoration: underline;
 }
 
+.post-wrapper .post .post-title .button{
+    max-width: 15px;
+    margin: 5px 10px;
+    font-size: 11px;
 
+}
 
 .post-wrapper .post .post-body{
     grid-area: post-body;
