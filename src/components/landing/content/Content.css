@@ -1,0 +1,21 @@
+.content{
+    width: 1080px;
+    
+}
+
+.content .bars-wrapper{
+    padding-left: 50px;
+    margin-left: 7px;
+    margin-top: 15px;
+    margin-right: 0%;
+}
+
+.content .bars-wrapper .popular-posts-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content .bars-wrapper .inside{
+    display: flex;
+    margin: 0%;
+}
