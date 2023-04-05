@@ -5,12 +5,12 @@ function Sidebar(){
     return <div>
         <div className='community'>
         <ListItem text='POPULAR COMMUNITIES'/>
-        <ListItem text='POPULAR COMMUNITIES'/>
-        <ListItem text='POPULAR COMMUNITIES'/>
-        <ListItem text='POPULAR COMMUNITIES'/>
-        <ListItem text='POPULAR COMMUNITIES'/>
-        <ListItem text='POPULAR COMMUNITIES'/>    
-        <ListItem text='POPULAR COMMUNITIES'/>
+        <ListItem text='GAMING'/>
+        <ListItem text='SPORTS'/>
+        <ListItem text='TV'/>
+        <ListItem text='TRAVEL'/>
+        <ListItem text='HEALTH & FITNESS'/>    
+        <ListItem text='FASHION'/>
         </div>
         
         <div>
