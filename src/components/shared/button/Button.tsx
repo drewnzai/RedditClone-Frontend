@@ -1,13 +1,9 @@
 import './Button.css';
 
-interface Props{
-    type: string;
-    text: string;
-}
 
-function Button(props: Props){
-    return <div className={`button ${props.type=="primary-button"? 'primary-button' : 'secondary-button'}`}>
-        {props.text}
+function Button(props: any){
+    return <div className={`button ${props.primary? 'primary-button' : 'secondary-button'}`}>
+        {props.label}
  </div>;
 }
 
