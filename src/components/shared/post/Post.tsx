@@ -6,7 +6,7 @@ import { ArrowDownward, ArrowUpward, ModeComment, Share, Bookmark, MoreHoriz } f
 function Post(){
     return (
         <div>
-           
+           Posts
         </div>
     );
 }
