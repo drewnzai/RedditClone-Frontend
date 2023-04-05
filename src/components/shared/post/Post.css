@@ -24,6 +24,7 @@
 }
 
 
+
 .post-wrapper .post .post-sidebar{
     grid-area: post-sidebar;
 
@@ -92,19 +93,12 @@
     font-size: 12px;
   
     color: rgb(150, 150, 150);
-  }
+}
   
   .post-wrapper .post .post-title .underline:hover {
     text-decoration: underline;
-  }
+}
   
-  .post-wrapper .post .post-title > .button {
-    margin: 8px;
-    padding: 4px 8px;
-  
-    font-size: 11px;
-  }
-
 
 
 .post-wrapper .post .post-body{
@@ -114,8 +108,47 @@
 }
 
 
-.post-wrapper .post .post-footer{
-    grid-area: post-footer;
 
-    background-color: red;
+
+.post-wrapper .post .post-footer{
+    align-items: center;
+
+    display: flex;
+    padding-left: 5px;
+  
+    color: rgb(130, 130, 130);
+}
+
+.post-wrapper .post .post-footer .footer-action {
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+    padding: 3px;
+}
+  
+ .post-wrapper .post .post-footer .footer-action:first-child {
+    margin-left: 0px;
+}
+  
+.post-wrapper .post .post-footer .footer-action:last-child {
+    margin-right: 0px;
+}
+  
+.post-wrapper .post .post-footer .footer-action svg {
+    margin-right: 5px;
+
+}
+  
+.post-wrapper .post .post-footer span {
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+.post-wrapper .post .post-footer svg {
+    font-size: 16px;
+}
+  
+.post-wrapper .post .post-footer .footer-action:hover {
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
 }
