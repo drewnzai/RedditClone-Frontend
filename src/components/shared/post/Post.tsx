@@ -1,14 +1,12 @@
 import './Post.css';
 import Posts from '../../../temp-data/posts.json';
+import { ArrowDownward, ArrowUpward, ModeComment, Share, Bookmark, MoreHoriz } from '@mui/icons-material';
+
 
 function Post(){
     return (
-        <div className='post-wrapper'>
-            {Posts.map((post, index) => (
-                <div>
-                    {post.title}
-                </div>
-            ))}
+        <div>
+           
         </div>
     );
 }
