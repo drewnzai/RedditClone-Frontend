@@ -2,7 +2,7 @@ import './Post.css';
 import Posts from '../../../temp-data/posts.json';
 import Button from '../../shared/button/Button';
 
-import { ArrowDownward, ArrowUpward, ModeComment, Share, Bookmark, MoreHoriz } from '@mui/icons-material';
+import { ArrowDownward, ArrowUpward, ModeComment, TurnSlightRight, Bookmark, MoreHoriz } from '@mui/icons-material';
 import Video from './video/Video';
 
 
@@ -46,7 +46,7 @@ function Post(){
               </div>
               
               <div className="share footer-action">
-                <Share />
+                <TurnSlightRight />
                 <span>Share</span>
               </div>
 
